@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style12.css">
+    <link rel="stylesheet" type="text/css" href="css/style.php">
+    <link rel="stylesheet" type="text/css" href="css/links.php">
+    <title>Find Vaccine Centres </title>
+
+   <style>
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color:  #a29bfe!important;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #111;
+}
+
+.active {
+  background-color: #04AA6D;
+}
+</style>
+
+
+
+  </head>
+  <body>
+
+    <ul>
+  <li style="float:right"><a href="payment.php">Donate</a></li>
+  <li style="float:right"><a href="contact.php">Covid Care</a></li>
+  <li style="float:right"><a href="indiacoronalive.php">India Corona Live</a></li>
+  <li style="float:right"><a href="index.php">World Corona Live</a></li>
+  <li style="float:right"><a href="index.php">Home</a></li>
+  <li><a href="index.php">Covid-19</a></li>
+</ul>
+
+
+
+
+    <div class="searchBox">
+      <input type="text" placeholder="enter your area pincode" id="input" />
+      <button>
+        <img
+          src="https://cdn3.iconfinder.com/data/icons/flaticons-1/24/flaticon_search-512.png"
+          alt="search"
+        />
+      </button>
+    </div>
+
+    
+    <div class="cards"></div>
+
+    <div class="opening">
+      <h1>Find Vaccination Centers near you</h1>
+      <img src="./vaccine1.jpg" alt="">
+    </div>
+
+
+    <script src="./script.js"></script>
+  </body>
+</html>
